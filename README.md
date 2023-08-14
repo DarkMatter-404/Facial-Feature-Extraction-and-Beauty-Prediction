@@ -3,8 +3,10 @@ I have extracted features using a standard dataset available online and stored t
 
 Dataset - SCUTFBP5500. This Dataset contains 2000 images of Asian males and females each, and 750 images of Caucasian mlaes and females each. Each image has been rated by several volunteers which is used as labels. Link to the dataset - https://github.com/HCIILAB/SCUT-FBP5500-Database-Release
 
-I have built a Regression and Classification Model to predict ratings of faces. The models are saved as joblib files.
+I have built a Regression and Classification Model to predict ratings of faces. Light GBM was used for regression and Logistic Regression was used for Classification.
 
-The codes and CSV files of extracted features can be found in the respective folders. 
+Lastly, I tried making an API using Flask.
+
+The codes and CSV files can be found in the respective folders. 
 
 I HOPE YOU ENJOYED!!!
